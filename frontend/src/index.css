@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+
+.login-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CARD */
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* LOGO */
+.logo {
+  width: 160px;
+  margin-bottom: 22px;
+}
+
+/* TITLE */
+.subtitle {
+  font-size: 22px;
+  color: #666;
+  margin-bottom: 26px;
+}
+
+/* INPUTS */
+input {
+  width: 100%;
+  padding: 16px;
+  font-size: 16px;
+  margin-bottom: 18px;
+  border-radius: 30px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 6px 6px 18px; /* close to password box */
+  font-size: 14px;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.remember input {
+  transform: scale(1.1);
+}
+
+.forgot {
+  color: #00b6d9;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+}
+
+
+
+/* ROLE BUTTONS */
+.role-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 25px;
+  width: 100%;
+}
+
+.hr-btn,
+.emp-btn {
+  flex: 1;
+  padding: 14px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.hr-btn {
+  background: #ff4f6d;
+}
+
+.emp-btn {
+  background: #647df5;
+}
+
+/* ERROR MESSAGE */
+.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 15px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+/* DISABLED BUTTON STYLE */
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

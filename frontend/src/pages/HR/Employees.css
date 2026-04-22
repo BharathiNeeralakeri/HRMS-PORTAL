@@ -1,0 +1,46 @@
+.employees-container {
+  padding: 30px;
+  background: white; /* ✅ ensures clean background */
+  border-radius: 12px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: white; /* ✅ important */
+}
+
+/* Header */
+th {
+  background: #1e3c72;
+  color: white;
+  padding: 12px;
+}
+
+/* Cells */
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: white; /* ✅ FORCE remove grey */
+}
+
+/* Remove any alternating row colors */
+tr {
+  background: white; /* ✅ important */
+}
+
+/* Optional hover (premium look) */
+tr:hover {
+  background: #f9f9f9;
+}
+
+/* Button */
+button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+}

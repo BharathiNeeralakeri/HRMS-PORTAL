@@ -1,0 +1,76 @@
+.payroll-container {
+  padding: 20px;
+}
+
+.payroll-container h2 {
+  margin-bottom: 20px;
+}
+
+.payroll-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.payroll-table th,
+.payroll-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.payroll-table th {
+  background: #4f46e5;
+  color: white;
+}
+
+.pay-btn {
+  background: green;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pay-btn:hover {
+  background: darkgreen;
+}
+
+.paid {
+  color: green;
+  font-weight: bold;
+}
+
+.pay-btn {
+  background: orange;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pay-btn:hover {
+  background: darkorange;
+}
+
+.paid {
+  color: green;
+  font-weight: bold;
+}
+
+.pay-btn {
+  background: green;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.pay-btn:hover {
+  background: darkgreen;
+}

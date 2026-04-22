@@ -1,0 +1,55 @@
+.attendancePage {
+  padding: 20px;
+}
+
+.attendancePage h2 {
+  margin-bottom: 20px;
+}
+
+/* Form */
+.attendanceForm {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.attendanceForm input,
+.attendanceForm select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.attendanceForm button {
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Table */
+.attendanceTable {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.attendanceTable th,
+.attendanceTable td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.present {
+  color: green;
+  font-weight: bold;
+}
+
+.absent {
+  color: red;
+  font-weight: bold;
+}
